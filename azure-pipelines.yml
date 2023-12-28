@@ -6,7 +6,8 @@
 trigger:
 - master
 
-- pool: Azure Pipelines
+pool: 
+  Azure Pipelines
   image: 'windows-latest'
   Started: 'Just now'
   Duration: '9s'
