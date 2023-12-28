@@ -7,9 +7,9 @@ trigger:
 - master
 
 Pool: Azure Pipelines
-Image: 'windows-latest'
-Started: 'Just now'
-Duration: '9s'
+  Image: 'windows-latest'
+  Started: 'Just now'
+  Duration: '9s'
 
 variables:
   solution: '**/*.sln'
