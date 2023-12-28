@@ -6,8 +6,10 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+Pool: Azure Pipelines
+Image: windows-latest
+Started: Just now
+Duration: 9s
 
 variables:
   solution: '**/*.sln'
